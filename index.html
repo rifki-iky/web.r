@@ -2,30 +2,16 @@
 <html lang="id">
 <head>
   <meta charset="UTF-8">
-  <title>Pilih Jawabanmu 💘</title>
+  <title>Pesan Buat Kamu 💌</title>
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
   <div class="container">
-    <h1>Aku mau tanya nih...</h1>
-    <p>Kamu mau jadi pacarku nggak? 🥺</p>
-
-    <div class="btn-group">
-      <a href="iya.html" class="btn iya">Iya</a>
-      <button id="btnNo" class="btn tidak">Nggak</button>
-    </div>
+    <h1>Hai kamu 😊</h1>
+    <p>Ada hal yang udah lama pengen aku bilang...</p>
+    <p>Aku seneng banget tiap kali liat kamu senyum 😍</p>
+    <p>Boleh aku bilang sesuatu?</p>
+    <a href="nembak.html" class="btn iya">Lanjut 💖</a>
   </div>
-
-  <script>
-    const btnNo = document.getElementById('btnNo');
-
-    btnNo.addEventListener('click', function () {
-      const randomX = Math.floor(Math.random() * (window.innerWidth - 100));
-      const randomY = Math.floor(Math.random() * (window.innerHeight - 50));
-      btnNo.style.position = 'absolute';
-      btnNo.style.left = `${randomX}px`;
-      btnNo.style.top = `${randomY}px`;
-    });
-  </script>
 </body>
 </html>
