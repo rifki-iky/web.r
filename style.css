@@ -1,0 +1,80 @@
+body {
+  background: linear-gradient(to right, #ffe6f0, #ffcce0);
+  font-family: 'Segoe UI', sans-serif;
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.container {
+  background: white;
+  padding: 40px;
+  border-radius: 20px;
+  text-align: center;
+  max-width: 500px;
+  box-shadow: 0 0 20px rgba(0,0,0,0.2);
+}
+
+h1 {
+  color: #ff69b4;
+}
+
+p {
+  font-size: 18px;
+  margin-bottom: 15px;
+}
+
+.btn-group {
+  margin-top: 30px;
+}
+
+.btn {
+  padding: 14px 25px;
+  font-size: 16px;
+  border: none;
+  border-radius: 12px;
+  margin: 10px;
+  cursor: pointer;
+  transition: 0.3s;
+  text-decoration: none;
+}
+
+.iya {
+  background-color: #ff69b4;
+  color: white;
+}
+
+.tidak {
+  background-color: #ccc;
+  color: black;
+  position: relative;
+}
+
+.pojok-kiri {
+  position: static;
+  bottom: 10px;
+  left: 10px;
+  font-size: 14px;
+  color: rgb(10, 234, 73);
+}
+.rainbow {
+  background: linear-gradient(270deg, #ff6ec4, #7873f5, #47e4c2, #faff00, #ff6ec4);
+  background-size: 1000% 1000%;
+  color: white;
+  border: none;
+  padding: 14px 25px;
+  border-radius: 12px;
+  font-size: 16px;
+  cursor: pointer;
+  animation: rainbowMove 5s ease infinite;
+  transition: 0.3s;
+}
+.subtitle {
+  font-size: 20px;
+  color: #ff69b4;
+  margin-bottom: 20px;
+}
